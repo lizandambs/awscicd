@@ -6,7 +6,7 @@ environment {
     BRANCH_NAME = 'main'
     GIT_URL = 'https://github.com/lizandambs/awscicd.git'
     IMAGE_TAG = 
-    IMAGE_VERSION = ${BUILD_NUMBER}
+    IMAGE_VERSION = "${BUILD_NUMBER}"
 }
   stages {
    stage('git checkout'){
